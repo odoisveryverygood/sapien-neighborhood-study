@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "mercer-block-example-01",
+  "sourceType": "authored-example",
+  "sourceLabel": "Scripted example records",
+  "offer": {
+    "currentPrice": 45,
+    "proposedPrice": 25,
+    "dataGB": 20,
+    "coverage": "Reduced coverage on the illustrated everyday routes"
+  },
+  "participants": [
+    {
+      "id": "daniel",
+      "name": "Daniel",
+      "role": "Delivery rider",
+      "circumstance": "His phone keeps maps and customer calls running while he works.",
+      "response": {
+        "choice": "stay",
+        "text": "Keep the current plan",
+        "reason": "The illustrated gap crosses his delivery route. Reliable calls and navigation matter more to this example than the $20 saving.",
+        "at": 14
+      }
+    },
+    {
+      "id": "maya",
+      "name": "Maya",
+      "role": "Student",
+      "circumstance": "She spends most days on campus Wi-Fi, and her usual route avoids the illustrated gap.",
+      "response": {
+        "choice": "switch",
+        "text": "Try the cheaper plan",
+        "reason": "In this authored example, campus Wi-Fi and a route outside the gap make the $20 saving attractive. This is not a prediction about students.",
+        "at": 14
+      }
+    },
+    {
+      "id": "amira",
+      "name": "Amira",
+      "role": "Parent",
+      "circumstance": "She needs to receive school calls while travelling. Her example route crosses the gap.",
+      "response": {
+        "choice": "stay",
+        "text": "Keep the current plan",
+        "reason": "In this example, being reachable during the school day outweighs the lower bill. The role alone does not determine a response.",
+        "at": 14
+      }
+    },
+    {
+      "id": "leo",
+      "name": "Leo",
+      "role": "Commuter",
+      "circumstance": "He commutes across town. This neighborhood alone does not establish coverage along the full journey.",
+      "response": {
+        "choice": "check",
+        "text": "Check the commute first",
+        "reason": "The example record leaves the decision open until coverage on his full commute is checked.",
+        "at": 14
+      }
+    }
+  ]
+}

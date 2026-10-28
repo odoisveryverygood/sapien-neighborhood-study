@@ -1,0 +1,23 @@
+{
+  "name": "sapien-street-study",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5184",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 5184",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "@fontsource-variable/dm-sans": "5.3.0",
+    "@fontsource-variable/manrope": "5.3.0",
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "vite": "8.3.5"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

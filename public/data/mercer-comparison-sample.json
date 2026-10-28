@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "comparisonId": "mercer-coverage-authored-pair-01",
+  "runs": {
+    "original": {
+      "schemaVersion": 1,
+      "id": "mercer-block-example-01",
+      "sourceType": "authored-example",
+      "sourceLabel": "Original offer · authored sample run",
+      "offer": {
+        "currentPrice": 45,
+        "proposedPrice": 25,
+        "dataGB": 20,
+        "coverage": "Reduced coverage on the illustrated everyday routes",
+        "coverageState": "gap"
+      },
+      "participants": [
+        {
+          "id": "daniel",
+          "name": "Daniel",
+          "role": "Delivery rider",
+          "circumstance": "His phone keeps maps and customer calls running while he works.",
+          "response": {
+            "choice": "stay",
+            "text": "Keep the current plan",
+            "reason": "The illustrated gap crosses his delivery route. Reliable calls and navigation matter more to this example than the $20 saving.",
+            "at": 14
+          }
+        },
+        {
+          "id": "maya",
+          "name": "Maya",
+          "role": "Student",
+          "circumstance": "She spends most days on campus Wi-Fi, and her usual route avoids the illustrated gap.",
+          "response": {
+            "choice": "switch",
+            "text": "Try the cheaper plan",
+            "reason": "In this authored example, campus Wi-Fi and a route outside the gap make the $20 saving attractive. This is not a prediction about students.",
+            "at": 14
+          }
+        },
+        {
+          "id": "amira",
+          "name": "Amira",
+          "role": "Parent",
+          "circumstance": "She needs to receive school calls while travelling. Her example route crosses the gap.",
+          "response": {
+            "choice": "stay",
+            "text": "Keep the current plan",
+            "reason": "In this example, being reachable during the school day outweighs the lower bill. The role alone does not determine a response.",
+            "at": 14
+          }
+        },
+        {
+          "id": "leo",
+          "name": "Leo",
+          "role": "Commuter",
+          "circumstance": "He commutes across town. This neighborhood alone does not establish coverage along the full journey.",
+          "response": {
+            "choice": "check",
+            "text": "Check the commute first",
+            "reason": "The example record leaves the decision open until coverage on his full commute is checked.",
+            "at": 14
+          }
+        }
+      ],
+      "scenarioId": "original"
+    },
+    "improved": {
+      "schemaVersion": 1,
+      "id": "mercer-better-coverage-sample-02",
+      "sourceType": "authored-example",
+      "sourceLabel": "Better coverage · authored sample run",
+      "offer": {
+        "currentPrice": 45,
+        "proposedPrice": 25,
+        "dataGB": 20,
+        "coverage": "The illustrated gap on the delivery and school routes is closed. Coverage beyond this neighborhood is not established.",
+        "coverageState": "improved"
+      },
+      "participants": [
+        {
+          "id": "daniel",
+          "name": "Daniel",
+          "role": "Delivery rider",
+          "circumstance": "His phone keeps maps and customer calls running while he works.",
+          "response": {
+            "choice": "switch",
+            "text": "Try the cheaper plan",
+            "reason": "In sample run B, the illustrated delivery route is covered. This authored record now chooses the $20 saving, with data and billing terms held the same.",
+            "at": 14
+          }
+        },
+        {
+          "id": "maya",
+          "name": "Maya",
+          "role": "Student",
+          "circumstance": "She spends most days on campus Wi-Fi, and her usual route avoids the illustrated gap.",
+          "response": {
+            "choice": "switch",
+            "text": "Try the cheaper plan",
+            "reason": "In sample run B, her response stays the same. The improved area does not cross her usual campus route; this record already chose the lower bill in run A.",
+            "at": 14
+          }
+        },
+        {
+          "id": "amira",
+          "name": "Amira",
+          "role": "Parent",
+          "circumstance": "She needs to receive school calls while travelling. Her example route crosses the gap.",
+          "response": {
+            "choice": "switch",
+            "text": "Try the cheaper plan",
+            "reason": "Sample run B closes the illustrated gap on her school route. This authored response changes to the cheaper offer. It does not establish real-world school-call reliability.",
+            "at": 14
+          }
+        },
+        {
+          "id": "leo",
+          "name": "Leo",
+          "role": "Commuter",
+          "circumstance": "He commutes across town. This neighborhood alone does not establish coverage along the full journey.",
+          "response": {
+            "choice": "check",
+            "text": "Check the commute first",
+            "reason": "His response stays open in sample run B. Better coverage in this block still does not establish coverage across his full commute.",
+            "at": 14
+          }
+        }
+      ],
+      "scenarioId": "improved"
+    }
+  }
+}
