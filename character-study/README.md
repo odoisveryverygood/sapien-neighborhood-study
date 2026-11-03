@@ -28,9 +28,11 @@ The source movie has 240 frames. Its full browser pass decoded all 240 with zero
 
 The revision improves gaze, eyelid closure, collar continuity, cloth movement, nail surfaces and the hand release. The face and hair still look digital in close-up; acting is restrained. For photographic hero close-ups, the recommended production change is a filmed performer under matching light.
 
-## Scope
+## What remains unfinished
 
 The person, values and response are authored illustrations. This is not an actual Sapien study, a finished World Models explanation, an explorable 3D neighborhood or a live simulation. It does not yet establish the person's history, connected journeys, alternative outcomes, population patterns or research findings. No official Sapien production release is asserted.
+
+For an explicit list of implemented behavior, missing functionality and next work, see [project status](../STATUS.md).
 
 ## Rendering sources
 

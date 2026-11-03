@@ -20,6 +20,11 @@ interaction. Paper remains a rigid prop moving on the counter. For a photographi
 hero close-up, the recommended next production change is a filmed performer
 under matching light; this character has not met that photographic standard.
 
-Open index.html after extracting this folder, or play character-study.mp4.
+Run node character-study/server.mjs from the repository root, or play
+character-study/public/media/character-performance.mp4 directly.
 The browser player replays pre-rendered 3D footage; it is not a real-time world.
-Credits and asset/movement usage boundaries are in sources.md.
+Credits and asset/movement usage boundaries are in SOURCES.md.
+
+The complete journey, definite choice and consequence, live simulation, scenario
+execution, population findings and approved study-record integration remain
+unimplemented in the current character test. See ../STATUS.md for the work list.

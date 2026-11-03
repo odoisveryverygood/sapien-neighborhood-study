@@ -1,6 +1,6 @@
 # Sapien visual prototypes
 
-The current work is the [illustrative character performance test](character-study/README.md): a ten-second pre-rendered scene with a runnable browser player, source code, rendering recipes, footage, verification and credits. It remains a character test for feedback; Ahmed’s broader World Models brief is unfinished.
+The current work is the [illustrative character performance test](character-study/README.md): a ten-second pre-rendered scene with a runnable browser player, source code, rendering recipes, footage, verification and credits. It is a character test for feedback. The broader World Models experience is unfinished.
 
 ```sh
 node character-study/server.mjs
@@ -9,6 +9,39 @@ node character-study/server.mjs
 Open http://127.0.0.1:5194/. No dependencies or API keys are needed for this player.
 
 ![Current character test](character-study/evidence/browser-review.png)
+
+## Current status
+
+The latest version is the character test in `character-study/`. The earlier neighborhood prototype below is a separate version; its features are not features of the current character test.
+
+### What works now
+
+- A ten-second pre-rendered 3D sequence shows one person comparing a $540 offer with a written $450 limit, moving the offer aside, releasing it and looking up.
+- Three shots cover the same continuous moment, with revised gaze, blinks, cloth movement and hand motion.
+- The browser player supports play/pause, restart, seeking, fullscreen and source disclosure.
+- The repository includes the player code, rendered movie, browser recording, measured playback record, rendering references and credits.
+- The full playback check decoded all 240 source frames with zero dropped video frames. This measures video playback, not real-time 3D rendering.
+
+### What it does not do yet
+
+- It does not run a live agent simulation or connect to a simulation backend.
+- It does not provide a freely explorable 3D world or let the viewer change a scenario and obtain a new model result.
+- It does not establish the person's history, changing circumstances or journey across settings.
+- It does not show a definite final choice, a chosen alternative or a later consequence. Moving a paper aside leaves the outcome ambiguous.
+- It does not connect individual choices to population patterns, scenario comparisons or research findings.
+- The values and response are authored illustrations, not approved study records or measured consumer outcomes.
+- The face and hair still look digital in close-up. Dialogue, walking and vehicle interaction are unvalidated.
+
+### Work remaining
+
+1. Select a concrete research question and obtain the profiles, scenarios, actions and results that can be represented. Keep illustrative material labeled until approved records are available.
+2. Establish a recognizable person's circumstances through connected settings and visible events.
+3. Show meaningful alternatives, an unambiguous choice and its consequence through action.
+4. Connect the journey to other responses and a research question or sourced finding. Scenario comparisons need records from both conditions.
+5. Improve or replace the close-up character pipeline, validate any additional actions, and review the complete sequence for visual clarity and continuity.
+6. Define and build the intended interaction beyond video playback. Package the missing rendering inputs if a standalone scene rebuild is required.
+
+See [STATUS.md](STATUS.md) for the scope and evidence in one place. This repository is a work in progress, not a completed World Models explanation or an official production release.
 
 ## Earlier neighborhood prototype
 
