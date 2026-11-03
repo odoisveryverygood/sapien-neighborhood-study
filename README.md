@@ -1,4 +1,20 @@
-# Sapien neighborhood study
+# Sapien visual prototypes
+
+The current work is the [illustrative character performance test](character-study/README.md): a ten-second pre-rendered scene with a runnable browser player, source code, rendering recipes, footage, verification and credits. It remains a character test for feedback; Ahmed’s broader World Models brief is unfinished.
+
+```sh
+node character-study/server.mjs
+```
+
+Open http://127.0.0.1:5194/. No dependencies or API keys are needed for this player.
+
+![Current character test](character-study/evidence/browser-review.png)
+
+## Earlier neighborhood prototype
+
+The existing Three.js/Vite neighborhood remains below as an earlier prototype. Its instructions and limitations apply to that version.
+
+## Sapien neighborhood study
 
 An interactive 3D prototype for exploring a study through the people behind its results. Built with Three.js and Vite.
 

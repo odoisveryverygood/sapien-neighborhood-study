@@ -1,0 +1,10 @@
+captures/
+*.blend
+*.blend1
+hand-patches/
+chunks/
+outputs/
+rendering/performance-proof/vitruvian-source/
+rendering/performance-refinement/mocap/
+__pycache__/
+*.pyc

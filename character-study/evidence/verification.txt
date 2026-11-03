@@ -1,0 +1,9 @@
+Source movie: 1920 × 1080, 24 fps, 10 seconds, 240 frames.
+All source render frame hashes are distinct. Full encoded movie decoding passed.
+Browser capture reached the end: True.
+Browser total decoded video frames: 240.
+Browser dropped frames during capture: 0.
+Browser waiting events: 1.
+Capture wall time including recorder finalization: 10.545 seconds.
+These are video-playback measurements, not real-time 3D rendering measurements.
+Movie SHA256: f3baaffb3c9cacc826d1da196b98f7d45f5f891d31875f23e6c544072359ccfc
